@@ -1,0 +1,141 @@
+{
+    "flashcards": {
+      "Basics of AI and ML": [
+        {
+          "question": "What is Artificial Intelligence (AI)?",
+          "answer": "A branch of computer science focused on building systems that reason, learn, and act autonomously."
+        },
+        {
+          "question": "What is Machine Learning?",
+          "answer": "A subfield of AI that enables models to learn patterns from data without explicit programming."
+        },
+        {
+          "question": "What is Deep Learning?",
+          "answer": "A subset of ML that uses neural networks to learn complex patterns in large datasets."
+        },
+        {
+          "question": "What is Semi-Supervised Learning?",
+          "answer": "A learning method using a small amount of labeled data and a large amount of unlabeled data."
+        },
+        {
+          "question": "What is Generative AI?",
+          "answer": "A type of AI that creates new content like text, images, audio, or video based on patterns from training data."
+        }
+      ],
+      "Supervised vs Unsupervised": [
+        {
+          "question": "What is the difference between supervised and unsupervised learning?",
+          "answer": "Supervised learning uses labeled data to predict outcomes; unsupervised learning finds patterns in unlabeled data."
+        },
+        {
+          "question": "Example of Supervised Learning",
+          "answer": "Predicting tip amounts based on bill total and delivery type."
+        },
+        {
+          "question": "Example of Unsupervised Learning",
+          "answer": "Clustering employees based on income and tenure to find patterns."
+        },
+        {
+          "question": "What is Error in Supervised ML?",
+          "answer": "The difference between the model’s prediction and the actual output."
+        }
+      ],
+      "Generative vs Discriminative Models": [
+        {
+          "question": "What is a Discriminative Model?",
+          "answer": "A model that classifies or predicts labels for input data."
+        },
+        {
+          "question": "What is a Generative Model?",
+          "answer": "A model that generates new data based on a learned distribution of input data."
+        },
+        {
+          "question": "Discriminative Example",
+          "answer": "Classifies whether an image is a dog or not."
+        },
+        {
+          "question": "Generative Example",
+          "answer": "Generates a new image of a dog from learned data."
+        },
+        {
+          "question": "When is it NOT Generative AI?",
+          "answer": "When the output is a class, number, or probability (e.g. spam or not spam)."
+        },
+        {
+          "question": "When IS it Generative AI?",
+          "answer": "When the output is natural language, audio, images, or video."
+        }
+      ],
+      "Generative AI Fundamentals": [
+        {
+          "question": "What is the formula Y = f(X)?",
+          "answer": "It shows how output Y is a function of inputs X through a model or function f."
+        },
+        {
+          "question": "What is a Foundation Model?",
+          "answer": "A large AI model trained on vast data and adaptable to many tasks."
+        },
+        {
+          "question": "What is a Prompt?",
+          "answer": "A text input used to guide and control a model’s output."
+        },
+        {
+          "question": "What is Prompt Design?",
+          "answer": "The practice of crafting prompts that elicit desired outputs from a GenAI model."
+        },
+        {
+          "question": "What are Hallucinations in AI?",
+          "answer": "Nonsensical or incorrect outputs generated due to poor data or insufficient context."
+        }
+      ],
+      "Model Types & Applications": [
+        {
+          "question": "What are the main text-input model types?",
+          "answer": "Text-to-text, text-to-image, text-to-video, text-to-3D, text-to-task."
+        },
+        {
+          "question": "Example of Text-to-Text",
+          "answer": "Model translates language or rewrites text."
+        },
+        {
+          "question": "Example of Text-to-Image",
+          "answer": "Model generates an image based on a short text prompt."
+        },
+        {
+          "question": "Example of Text-to-Video",
+          "answer": "Model creates a video sequence from a sentence or script."
+        },
+        {
+          "question": "Example of Text-to-3D",
+          "answer": "Model produces a 3D object from a textual description."
+        },
+        {
+          "question": "Example of Text-to-Task",
+          "answer": "Model performs a task like navigating a UI or answering a question from text."
+        }
+      ],
+      "Google Cloud & Gemini": [
+        {
+          "question": "What is Gemini?",
+          "answer": "Google’s multimodal AI model that processes text, images, audio, and code."
+        },
+        {
+          "question": "What is Vertex AI Studio?",
+          "answer": "A tool to explore, fine-tune, and deploy GenAI models on Google Cloud."
+        },
+        {
+          "question": "What is Vertex AI Agent Builder?",
+          "answer": "A tool to build chatbots, search tools, and digital assistants with minimal or no code."
+        },
+        {
+          "question": "How does GenAI help developers?",
+          "answer": "Assists with debugging, translating code, writing SQL, and generating documentation."
+        },
+        {
+          "question": "What is the Model Garden?",
+          "answer": "A collection of foundation models available via Google Cloud’s Vertex AI platform."
+        }
+      ]
+    }
+  }
+  

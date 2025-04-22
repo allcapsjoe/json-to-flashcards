@@ -1,0 +1,20 @@
+{
+    "flashcards": {
+      "Section 1": [
+        {
+          "question": "Enter your first question here",
+          "answer": "Enter the corresponding answer here"
+        },
+        {
+          "question": "Enter your second question here",
+          "answer": "Enter its answer here"
+        }
+      ],
+      "Section 2": [
+        {
+          "question": "Another section’s question",
+          "answer": "And its answer"
+        }
+      ]
+    }
+} 
