@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import os                              # ←– needed to manipulate file names
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 from reportlab.lib.colors import black, white, limegreen
@@ -112,10 +113,17 @@ def main():
         description="Generate a 9×16 PDF flashcard deck from a JSON file"
     )
     parser.add_argument("json_file", help="Input JSON file path")
-    parser.add_argument("pdf_file",  help="Output PDF file path")
     args = parser.parse_args()
 
-    create_flashcards(args.json_file, args.pdf_file)
+    # ─── OUTPUT NAMING ─────────────────────────────────────────────────────────────
+    # Derive the PDF filename from the JSON filename:
+    json_path = args.json_file
+    base, _ = os.path.splitext(json_path)
+    pdf_path = base + ".pdf"
+    # ───────────────────────────────────────────────────────────────────────────────
+
+    create_flashcards(json_path, pdf_path)
+    print(f"Created PDF: {pdf_path}")
 
 if __name__ == "__main__":
     main()
